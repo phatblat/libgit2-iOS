@@ -675,6 +675,7 @@
 				DSTROOT = /tmp/git2_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "git2-iOS/git2-iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libgit2/include";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -687,6 +688,7 @@
 				DSTROOT = /tmp/git2_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "git2-iOS/git2-iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libgit2/include";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
