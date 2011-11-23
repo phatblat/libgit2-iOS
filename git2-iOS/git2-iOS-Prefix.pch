@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'git2-iOS' target in the 'git2-iOS' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

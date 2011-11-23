@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BEC6E6147D88EB00C35467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BEC6D4147D88C900C35467 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52BEC6D4147D88C900C35467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52BEC6E5147D88EB00C35467 /* libgit2-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libgit2-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BEC6E9147D88EB00C35467 /* git2-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git2-iOS-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BEC6E2147D88EB00C35467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BEC6E6147D88EB00C35467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BEC6C6147D88C900C35467 = {
+			isa = PBXGroup;
+			children = (
+				52BEC6E7147D88EB00C35467 /* git2-iOS */,
+				52BEC6D3147D88C900C35467 /* Frameworks */,
+				52BEC6D2147D88C900C35467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BEC6D2147D88C900C35467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BEC6E5147D88EB00C35467 /* libgit2-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BEC6D3147D88C900C35467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BEC6D4147D88C900C35467 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BEC6E7147D88EB00C35467 /* git2-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52BEC6E8147D88EB00C35467 /* Supporting Files */,
+			);
+			path = "git2-iOS";
+			sourceTree = "<group>";
+		};
+		52BEC6E8147D88EB00C35467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BEC6E9147D88EB00C35467 /* git2-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52BEC6E3147D88EB00C35467 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52BEC6E4147D88EB00C35467 /* git2-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BEC6ED147D88EB00C35467 /* Build configuration list for PBXNativeTarget "git2-iOS" */;
+			buildPhases = (
+				52BEC6E1147D88EB00C35467 /* Sources */,
+				52BEC6E2147D88EB00C35467 /* Frameworks */,
+				52BEC6E3147D88EB00C35467 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "git2-iOS";
+			productName = "git2-iOS";
+			productReference = 52BEC6E5147D88EB00C35467 /* libgit2-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BEC6C8147D88C900C35467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 52BEC6CB147D88C900C35467 /* Build configuration list for PBXProject "libgit2-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52BEC6C6147D88C900C35467;
+			productRefGroup = 52BEC6D2147D88C900C35467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BEC6E4147D88EB00C35467 /* git2-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BEC6E1147D88EB00C35467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52BEC6DC147D88C900C35467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52BEC6DD147D88C900C35467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BEC6EE147D88EB00C35467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/git2_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "git2-iOS/git2-iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52BEC6EF147D88EB00C35467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/git2_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "git2-iOS/git2-iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BEC6CB147D88C900C35467 /* Build configuration list for PBXProject "libgit2-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BEC6DC147D88C900C35467 /* Debug */,
+				52BEC6DD147D88C900C35467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BEC6ED147D88EB00C35467 /* Build configuration list for PBXNativeTarget "git2-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BEC6EE147D88EB00C35467 /* Debug */,
+				52BEC6EF147D88EB00C35467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BEC6C8147D88C900C35467 /* Project object */;
+}
